@@ -656,3 +656,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+
+### marimo
+# Session cache (cell outputs) written by `marimo edit`
+__marimo__/
