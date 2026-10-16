@@ -9,6 +9,7 @@ The notebooks are meant to go alongside the lecture and exercises, not replace t
 | Notebook | Topic | Contents |
 |---|---|---|
 | [`bisection_method.py`](bisection_method.py) | Intermediate value theorem / bisection | Pick a cubic polynomial and a starting interval, then step through the bisection method one iteration at a time, deciding at each step which half to keep. See how the error halves every step and predict the number of steps in advance. |
+| [`complex_numbers.py`](complex_numbers.py) | Complex numbers in engineering (Euler's formula, Fourier series) | See e^{iφ} = cos φ + i sin φ on the unit circle and build it from its Taylor series, add oscillations as rotating phasors, approximate square/sawtooth/triangle waves with chains of rotating arrows, and recover the frequencies of a noisy signal with the Fourier integral. No prior Fourier analysis needed. |
 | [`continuity.py`](continuity.py) | Continuity (ε–δ and limit definition) | Briefly play the ε–δ game, then test continuity via lim f(x) = f(x₀): send sequences towards x₀, hunt for counter-sequences, and compare left- and right-sided limits for jumps, removable gaps, poles and oscillations. |
 | [`limit_definition.py`](limit_definition.py) | Limit of a sequence (ε–N definition) | Play the ε–N game: choose ε, find an N so that every term from N on lies in the ε-tube, and see how N(ε) grows as ε shrinks. |
 
